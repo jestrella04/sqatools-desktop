@@ -1,0 +1,142 @@
+170327-110756 INFO  [main] (VirtualTerminalBridge.java:827) - JAVA library path: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JSONBuddy;C:\Users\jestrella\AppData\Local\atom\bin;C:\Program Files\7-Zip;C:\LogsCollector;.
+170327-110756 INFO  [main] (VirtualTerminalBridge.java:828) - Working directory: C:\Users\jestrella\Documents\Visual Studio 2015\Projects\QATools\QATools\bin\Debug\Resources\Temp\Bridge\vtbridge-pkg-2017-03-24_1107
+170327-110756 INFO  [main] (VirtualTerminalBridge.java:829) - Starting VTBridge
+170327-110756 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:813) - Launch mode: NORMAL
+170327-110756 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:240) - Bridge Version: 4.1:
+170327-110756 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:402) - No manifest build data
+170327-110757 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:745) - Configuration file was not found: config.xml
+170327-110757 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:753) - Loading plain default configuration
+170327-110757 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:138) - Legacy check image server port is already used. May be other instance of this program is already open
+170327-110759 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:500) - No device configured
+170327-110801 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:178) - Error remote update server
+170327-110801 INFO  [AMF Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 8055
+170327-110801 ERROR [AMF Bridge] (SocketBridge.java:153) - Error in Bridge thread
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at merapi.SocketBridge.run(SocketBridge.java:90)
+170327-110801 ERROR [AMF Bridge] (VirtualTerminalBridge.java:381) - Bridge port is already used. May be other instance of this program is already open
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at merapi.SocketBridge.run(SocketBridge.java:90)
+170327-110801 INFO  [AMF Bridge] (VirtualTerminalBridge.java:653) - Bridge stopped
+170327-110801 INFO  [JSON Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 50856
+170327-110801 ERROR [JSON Bridge] (SocketBridge.java:153) - Error in Bridge thread
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at merapi.SocketBridge.run(SocketBridge.java:90)
+170327-110801 ERROR [JSON Bridge] (VirtualTerminalBridge.java:381) - Bridge port is already used. May be other instance of this program is already open
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at merapi.SocketBridge.run(SocketBridge.java:90)
+170327-110801 INFO  [JSON Bridge] (VirtualTerminalBridge.java:653) - Bridge stopped
+170327-110801 ERROR [PolicyServer] (PolicyServer.java:155) - Socket listening error
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at merapi.PolicyServer.run(PolicyServer.java:109)
+170327-112345 INFO  [main] (VirtualTerminalBridge.java:827) - JAVA library path: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JSONBuddy;C:\Users\jestrella\AppData\Local\atom\bin;C:\Program Files\7-Zip;C:\LogsCollector;.
+170327-112345 INFO  [main] (VirtualTerminalBridge.java:828) - Working directory: C:\Users\jestrella\Documents\Visual Studio 2015\Projects\QATools\QATools\bin\Debug\Resources\Temp\Bridge\vtbridge-pkg-2017-03-24_1107
+170327-112345 INFO  [main] (VirtualTerminalBridge.java:829) - Starting VTBridge
+170327-112345 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:813) - Launch mode: NORMAL
+170327-112345 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:240) - Bridge Version: 4.1:
+170327-112345 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:402) - No manifest build data
+170327-112346 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:745) - Configuration file was not found: config.xml
+170327-112346 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:753) - Loading plain default configuration
+170327-112347 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:500) - No device configured
+170327-112349 INFO  [AMF Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 8055
+170327-112349 INFO  [JSON Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 50856
+170327-112349 INFO  [JSON Bridge] (VirtualTerminalBridge.java:643) - Bridge started
+170327-112349 INFO  [JavaFX Application Thread] (LegacyScanCheckServer.java:57) - Legacy Scan Check Image server listening on port: 8000
+170327-112349 INFO  [JavaFX Application Thread] (UpdateServer.java:59) - Legacy Scan Check Image server listening on port: 50914
+170327-112349 INFO  [JavaFX Application Thread] (RemoteUpdate.java:63) - Remote update server listening on port: 50814
+170327-112349 INFO  [PolicyServer] (PolicyServer.java:111) - PolicyServer listening on port 843
+170327-112350 INFO  [JSON Bridge] (SocketBridge.java:109) - New client connection
+170327-112350 DEBUG [JSON Bridge] (SocketBridge.java:136) - Clients pipe length: 1
+170327-112350 INFO  [Bridge Client Listener] (BridgeListenerThread.java:68) - Bridge listener started
+170327-112510 DEBUG [AWT-EventQueue-0] (VirtualTerminalTrayIcon.java:66) - Tray icon action detected
+170327-112903 INFO  [main] (VirtualTerminalBridge.java:827) - JAVA library path: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JSONBuddy;C:\Users\jestrella\AppData\Local\atom\bin;C:\Program Files\7-Zip;C:\LogsCollector;.
+170327-112903 INFO  [main] (VirtualTerminalBridge.java:828) - Working directory: C:\Users\jestrella\Documents\Visual Studio 2015\Projects\QATools\QATools\bin\Debug\Resources\Temp\Bridge\vtbridge-pkg-2017-03-24_1107
+170327-112903 INFO  [main] (VirtualTerminalBridge.java:829) - Starting VTBridge
+170327-112903 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:813) - Launch mode: NORMAL
+170327-112903 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:240) - Bridge Version: 4.1:
+170327-112903 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:402) - No manifest build data
+170327-112904 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:745) - Configuration file was not found: config.xml
+170327-112904 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:753) - Loading plain default configuration
+170327-112905 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:500) - No device configured
+170327-112907 INFO  [AMF Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 8055
+170327-112907 INFO  [JSON Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 50856
+170327-112907 INFO  [JSON Bridge] (VirtualTerminalBridge.java:643) - Bridge started
+170327-112907 INFO  [JavaFX Application Thread] (LegacyScanCheckServer.java:57) - Legacy Scan Check Image server listening on port: 8000
+170327-112907 INFO  [JavaFX Application Thread] (UpdateServer.java:59) - Legacy Scan Check Image server listening on port: 50914
+170327-112907 INFO  [JavaFX Application Thread] (RemoteUpdate.java:63) - Remote update server listening on port: 50814
+170327-112907 INFO  [PolicyServer] (PolicyServer.java:111) - PolicyServer listening on port 843
+170327-112907 INFO  [JSON Bridge] (SocketBridge.java:109) - New client connection
+170327-112907 DEBUG [JSON Bridge] (SocketBridge.java:136) - Clients pipe length: 1
+170327-112907 INFO  [Bridge Client Listener] (BridgeListenerThread.java:68) - Bridge listener started
+170327-113125 INFO  [main] (VirtualTerminalBridge.java:827) - JAVA library path: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JSONBuddy;C:\Users\jestrella\AppData\Local\atom\bin;C:\Program Files\7-Zip;C:\LogsCollector;.
+170327-113125 INFO  [main] (VirtualTerminalBridge.java:828) - Working directory: C:\Users\jestrella\Documents\Visual Studio 2015\Projects\QATools\QATools\bin\Debug\Resources\Temp\Bridge\vtbridge-pkg-2017-03-24_1107
+170327-113125 INFO  [main] (VirtualTerminalBridge.java:829) - Starting VTBridge
+170327-113125 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:813) - Launch mode: NORMAL
+170327-113125 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:240) - Bridge Version: 4.1:
+170327-113125 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:402) - No manifest build data
+170327-113125 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:745) - Configuration file was not found: config.xml
+170327-113125 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:753) - Loading plain default configuration
+170327-113126 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:500) - No device configured
+170327-113128 INFO  [AMF Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 8055
+170327-113128 INFO  [JSON Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 50856
+170327-113128 INFO  [JSON Bridge] (VirtualTerminalBridge.java:643) - Bridge started
+170327-113128 INFO  [JavaFX Application Thread] (LegacyScanCheckServer.java:57) - Legacy Scan Check Image server listening on port: 8000
+170327-113128 INFO  [JavaFX Application Thread] (UpdateServer.java:59) - Legacy Scan Check Image server listening on port: 50914
+170327-113128 INFO  [JavaFX Application Thread] (RemoteUpdate.java:63) - Remote update server listening on port: 50814
+170327-113128 INFO  [PolicyServer] (PolicyServer.java:111) - PolicyServer listening on port 843
+170327-113128 INFO  [JSON Bridge] (SocketBridge.java:109) - New client connection
+170327-113128 DEBUG [JSON Bridge] (SocketBridge.java:136) - Clients pipe length: 1
+170327-113128 INFO  [Bridge Client Listener] (BridgeListenerThread.java:68) - Bridge listener started
+170327-113803 INFO  [main] (VirtualTerminalBridge.java:827) - JAVA library path: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JSONBuddy;C:\Users\jestrella\AppData\Local\atom\bin;C:\Program Files\7-Zip;C:\LogsCollector;.
+170327-113803 INFO  [main] (VirtualTerminalBridge.java:828) - Working directory: C:\Users\jestrella\Documents\Visual Studio 2015\Projects\QATools\QATools\bin\Debug\Resources\Temp\Bridge\vtbridge-pkg-2017-03-24_1107
+170327-113803 INFO  [main] (VirtualTerminalBridge.java:829) - Starting VTBridge
+170327-113803 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:813) - Launch mode: NORMAL
+170327-113803 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:240) - Bridge Version: 4.1:
+170327-113803 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:402) - No manifest build data
+170327-113804 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:745) - Configuration file was not found: config.xml
+170327-113804 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:753) - Loading plain default configuration
+170327-113805 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:500) - No device configured
+170327-113807 INFO  [AMF Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 8055
+170327-113807 INFO  [JSON Bridge] (SocketBridge.java:87) - Merapi Socket Bridge listening on port: 50856
+170327-113807 INFO  [JSON Bridge] (VirtualTerminalBridge.java:643) - Bridge started
+170327-113807 INFO  [JavaFX Application Thread] (LegacyScanCheckServer.java:57) - Legacy Scan Check Image server listening on port: 8000
+170327-113807 INFO  [JavaFX Application Thread] (UpdateServer.java:59) - Legacy Scan Check Image server listening on port: 50914
+170327-113807 INFO  [JavaFX Application Thread] (RemoteUpdate.java:63) - Remote update server listening on port: 50814
+170327-113807 INFO  [PolicyServer] (PolicyServer.java:111) - PolicyServer listening on port 843
+170327-113807 INFO  [JSON Bridge] (SocketBridge.java:109) - New client connection
+170327-113807 DEBUG [JSON Bridge] (SocketBridge.java:136) - Clients pipe length: 1
+170327-113807 INFO  [Bridge Client Listener] (BridgeListenerThread.java:68) - Bridge listener started

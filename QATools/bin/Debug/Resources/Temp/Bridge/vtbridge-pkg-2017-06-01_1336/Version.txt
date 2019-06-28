@@ -1,0 +1,65 @@
+4.1:
+1. Upgraded to JRE 8
+2. Upgraded with new Ingenico RBA SDK
+3. Package now is more lightweight because of less dependencies.
+4. VeriFone MX915 now has full contact EMV support.
+5. Ingenico iSC250 now has full contact EMV support.
+6. UIC 795 now has full contact EMV support.
+7. Full new architecture handling Merapi messages decoupled of Terminal device.
+8. Basic unit testing for Merapi messages processing.
+9. ANT build system adopted.
+10. Cleaner INIT.CMD script.
+
+4.0:
+1. Unified capability experimental
+
+3.5:
+1. Improved cross terminal support.
+2. Do not require file copying during startup.
+
+3.4:
+1. Support of new Ingenico iSC250/350 and iPP320/350
+
+3.0:
+1. Supports All 3 check scanner properly
+2. Added libray files jpos113
+3. New Init file to support 32 and 64 bit installs
+4. Single installer to support XP and Vista & 7
+5. Virtual Terminal Bridge defaults to JRE6 if current version is not found
+6. Socket Server included
+7. Ability to change which port the Virtual Terminal Bridge and Socket Server is listening in the case where 8055 and/or 8000 are being used.
+	This can be done by right-clicking the Bridge icon in the task tray and choosing 'Ports'.
+
+
+2.4:
+1. Bridge has been consolidated to only one version for all platforms:
+	a. Windows XP 32bit
+	b. Windows XP 64bit
+	c. Windows Vista/7 32bit
+	d. Windows Vista/7 64bit
+2. Support of check scanners has been added.
+	a. RDM EC7000i
+	b. Epson TM 1000
+	c. Magtek MiniMICR
+3. Ability to check for future updates to Virtual Terminal Bridge.
+4. New libraries included:
+	a. Ingenico i6580 - 172
+	b. Hypercom - 729
+	c. JPOS - 113
+	d. VTBridge - 1.02
+	e. Merapi - .90A
+5. Permissions for C:\VirtualTerminalBridge have been forced to 'Full Control'.
+6. PID.txt will be written every time Virtual Terminal Bridge starts.
+
+
+2.3:
+- New Ingenico i6580 libraries
+- New Hypercom libraries
+- New JPOS libraries
+- VTBridge.jar (.90) and Merapi.jar files updated
+
+
+2.2:
+- Notification of multiple instances of VT
+- Includes fix for JPOS printing
+- Includes fix for verifone

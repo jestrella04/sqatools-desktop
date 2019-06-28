@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration>
+
+	<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="log/bridge.log" />
+		<param name="append" value="true" />
+		<param name="MaxFileSize" value="5MB"/>
+      		<param name="MaxBackupIndex" value="20"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyMMdd-HHmmss} %-5p [%t] (%F:%L) - %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="Console" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"	value="%d{yyMMddHHmmss} %-5p [%t] (%F:%L) - %m%n" />
+		</layout>
+	</appender>	
+		
+	<logger name="com.ingenico.comm">
+		<level value="debug" />
+		<appender-ref ref="FILE" />
+	</logger>
+	
+	<logger name="com.ingenico.form">
+		<level value="debug" />
+		<appender-ref ref="FILE" />
+	</logger>
+
+	<logger name="com.ingenico.jpos">
+		<level value="debug" />
+		<appender-ref ref="FILE" />
+	</logger>
+
+	<root>
+        <level value="DEBUG" />
+		<appender-ref ref="Console" />
+		<appender-ref ref="FILE" />
+	</root>
+
+</log4j:configuration>

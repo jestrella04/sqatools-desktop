@@ -1,0 +1,89 @@
+02/11/2014 09:33:17:320 Generate - begin ---
+02/11/2014 09:33:17:322 Generate - generating files for application: C:\Users\Robert\Desktop\MX850\MX850.APP
+02/11/2014 09:33:17:325 Generate - created FileSystemObject
+02/11/2014 09:33:17:334 Generate - opened files
+02/11/2014 09:33:17:337 Generate - wrote static header begin info
+02/11/2014 09:33:17:340 Generate - Form# 1, FormName = C:\Users\Robert\Desktop\MX850\WELCOME.FRM
+02/11/2014 09:33:17:345 Generate - opened form file for writing
+02/11/2014 09:33:17:350 Generate - reset form info
+02/11/2014 09:33:17:399 Generate - getting number of controls on form
+02/11/2014 09:33:17:401 Generate - number of controls on form = 2
+02/11/2014 09:33:17:403 Generate - wrote number of form controls
+02/11/2014 09:33:17:405 Generate - wrote info for control(1) - label, RecordSize=93, ControlID=1, ControlName=WELCOME_LBL_1
+02/11/2014 09:33:17:407 Generate - wrote info for control(2) - image, RecordSize=50, ControlID=2, ControlName=WELCOME_IMG_1
+02/11/2014 09:33:17:409 Generate - wrote fontname info for form WELCOME
+02/11/2014 09:33:17:411 Generate - wrote cbfunc info for form WELCOME
+02/11/2014 09:33:17:413 Generate - wrote form trailer signature
+02/11/2014 09:33:17:416 Generate - closed form file
+02/11/2014 09:33:17:420 Generate - Form# 2, FormName = C:\Users\Robert\Desktop\MX850\SWIPE.FRM
+02/11/2014 09:33:17:423 Generate - opened form file for writing
+02/11/2014 09:33:17:426 Generate - reset form info
+02/11/2014 09:33:17:478 Generate - getting number of controls on form
+02/11/2014 09:33:17:481 Generate - number of controls on form = 2
+02/11/2014 09:33:17:484 Generate - wrote number of form controls
+02/11/2014 09:33:17:488 Generate - wrote info for control(1) - label, RecordSize=93, ControlID=1, ControlName=PLEASE SWIPE_LBL_1
+02/11/2014 09:33:17:491 Generate - wrote info for control(2) - image, RecordSize=50, ControlID=2, ControlName=PLEASE SWIPE_IMG_1
+02/11/2014 09:33:17:494 Generate - wrote fontname info for form SWIPE
+02/11/2014 09:33:17:497 Generate - wrote cbfunc info for form SWIPE
+02/11/2014 09:33:17:500 Generate - wrote form trailer signature
+02/11/2014 09:33:17:504 Generate - closed form file
+02/11/2014 09:33:17:507 Generate - Form# 3, FormName = C:\Users\Robert\Desktop\MX850\AMOUNT.FRM
+02/11/2014 09:33:17:512 Generate - opened form file for writing
+02/11/2014 09:33:17:515 Generate - reset form info
+02/11/2014 09:33:17:555 Generate - getting number of controls on form
+02/11/2014 09:33:17:559 Generate - number of controls on form = 4
+02/11/2014 09:33:17:562 Generate - wrote number of form controls
+02/11/2014 09:33:17:566 Generate - wrote info for control(1) - label, RecordSize=93, ControlID=1, ControlName=AMOUNT_LBL_1
+02/11/2014 09:33:17:569 Generate - wrote info for control(2) - fnkeybtn, RecordSize=168, ControlID=2, ControlName=AMOUNT_FK_1
+02/11/2014 09:33:17:573 Generate - wrote info for control(3) - fnkeybtn, RecordSize=168, ControlID=3, ControlName=AMOUNT_FK_2
+02/11/2014 09:33:17:576 Generate - wrote info for control(4) - hardkeypad, RecordSize=27, ControlID=4, ControlName=AMOUNT_HKP_1
+02/11/2014 09:33:17:580 Generate - wrote fontname info for form AMOUNT
+02/11/2014 09:33:17:584 Generate - wrote cbfunc info for form AMOUNT
+02/11/2014 09:33:17:587 Generate - wrote form trailer signature
+02/11/2014 09:33:17:591 Generate - closed form file
+02/11/2014 09:33:17:596 Generate - Form# 4, FormName = C:\Users\Robert\Desktop\MX850\850_FA_SIGN.FRM
+02/11/2014 09:33:17:601 Generate - opened form file for writing
+02/11/2014 09:33:17:607 Generate - reset form info
+02/11/2014 09:33:17:656 Generate - getting number of controls on form
+02/11/2014 09:33:17:662 Generate - number of controls on form = 6
+02/11/2014 09:33:17:665 Generate - wrote number of form controls
+02/11/2014 09:33:17:669 Generate - wrote info for control(1) - label, RecordSize=93, ControlID=1, ControlName=FA_SIGN_LBL_1
+02/11/2014 09:33:17:672 Generate - wrote info for control(2) - box, RecordSize=18, ControlID=3, ControlName=FA_SIGN_BOX_1
+02/11/2014 09:33:17:676 Generate - wrote info for control(3) - button, RecordSize=165, ControlID=4, ControlName=FA_SIGN_BTN_1
+02/11/2014 09:33:17:680 Generate - wrote info for control(4) - button, RecordSize=165, ControlID=5, ControlName=FA_SIGN_BTN_2
+02/11/2014 09:33:17:685 Generate - wrote info for control(5) - textbox, RecordSize=40, ControlID=6, ControlName=FA_SIGN_TXT_1
+02/11/2014 09:33:17:688 Generate - wrote info for control(6) - label, RecordSize=93, ControlID=10, ControlName=850_FA_SIGN_LBL_2
+02/11/2014 09:33:17:692 Generate - wrote fontname info for form 850_FA_SIGN
+02/11/2014 09:33:17:695 Generate - wrote cbfunc info for form 850_FA_SIGN
+02/11/2014 09:33:17:698 Generate - wrote form trailer signature
+02/11/2014 09:33:17:702 Generate - closed form file
+02/11/2014 09:33:17:706 Generate - Form# 5, FormName = C:\Users\Robert\Desktop\MX850\PINENTRY.FRM
+02/11/2014 09:33:17:712 Generate - opened form file for writing
+02/11/2014 09:33:17:717 Generate - reset form info
+02/11/2014 09:33:17:753 Generate - getting number of controls on form
+02/11/2014 09:33:17:757 Generate - number of controls on form = 2
+02/11/2014 09:33:17:760 Generate - wrote number of form controls
+02/11/2014 09:33:17:764 Generate - wrote info for control(1) - editfield, RecordSize=159, ControlID=1, ControlName=FA_PINE_KBD_1
+02/11/2014 09:33:17:767 Generate - wrote info for control(2) - label, RecordSize=93, ControlID=2, ControlName=PINENTRY_LBL_1
+02/11/2014 09:33:17:770 Generate - wrote fontname info for form PINENTRY
+02/11/2014 09:33:17:774 Generate - wrote cbfunc info for form PINENTRY
+02/11/2014 09:33:17:777 Generate - wrote form trailer signature
+02/11/2014 09:33:17:781 Generate - closed form file
+02/11/2014 09:33:17:784 Generate - wrote static header end info
+02/11/2014 09:33:17:788 Generate - writing DWN file C:\Users\Robert\Desktop\MX850\MX850.DWN
+02/11/2014 09:33:17:791 Generate - creating font table
+02/11/2014 09:33:17:794 Generate - fonts being added to font table...
+02/11/2014 09:33:17:799 Generate - number of fonts in application = 3
+02/11/2014 09:33:17:806 Generate - font name added to font table: [VeraMono.ttf]
+02/11/2014 09:33:17:813 Generate - font name added to font table: [VeraMoBd.ttf]
+02/11/2014 09:33:17:820 Generate - font name added to font table: [Vera.ttf]
+02/11/2014 09:33:17:825 Generate - wrote file C:\Users\Robert\Desktop\MX850\MX850.DWN
+02/11/2014 09:33:17:830 Generate - closed files
+02/11/2014 09:33:17:834 Generate - tar'ing files...
+02/11/2014 09:33:17:937 Generate - tar file [C:\Users\Robert\Desktop\MX850\MX850_files.tar] created!
+02/11/2014 09:33:17:943 Generate - gzip'ing files...
+02/11/2014 09:33:18:047 Generate - files gzip'd
+02/11/2014 09:33:18:056 Files are generated in folder [C:\Users\Robert\Desktop\MX850]
+02/11/2014 09:33:18:060 Files to download are listed in [C:\Users\Robert\Desktop\MX850\MX850.DWN]
+02/11/2014 09:33:18:064 Files are tar/gzip'd in [C:\Users\Robert\Desktop\MX850\MX850_files.tgz]
+02/11/2014 09:33:18:068 Generate - end ---

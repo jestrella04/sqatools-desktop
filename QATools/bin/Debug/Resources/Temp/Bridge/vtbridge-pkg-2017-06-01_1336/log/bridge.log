@@ -1,0 +1,29 @@
+170606-124950 INFO  [main] (VirtualTerminalBridge.java:827) - JAVA library path: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\7-Zip;C:\Users\jestrella\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;.
+170606-124950 INFO  [main] (VirtualTerminalBridge.java:828) - Working directory: C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Debug\Resources\Temp\Bridge\vtbridge-pkg-2017-06-01_1336
+170606-124950 INFO  [main] (VirtualTerminalBridge.java:829) - Starting VTBridge
+170606-124951 DEBUG [JavaFX Application Thread] (VirtualTerminalBridge.java:813) - Launch mode: NORMAL
+170606-124951 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:240) - Bridge Version: 4.1:
+170606-124951 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:402) - No manifest build data
+170606-124951 WARN  [JavaFX Application Thread] (VirtualTerminalBridge.java:426) - JAVAX.COMM.PROPERTIES file is missing into JRE/lib folder, trying create it
+170606-124951 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:436) - Creation of JAVAX.COMM.PROPERTIES file was failed. In order to use VERIFONE driver you need to put this file manually into JRE/lib folder
+java.io.FileNotFoundException: C:\Program Files (x86)\Java\jdk1.8.0_31\jre\lib\javax.comm.properties (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.PrintWriter.<init>(Unknown Source)
+	at java.io.PrintWriter.<init>(Unknown Source)
+	at com.cinet.virtualterminal.bridge.VirtualTerminalBridge.performUtilChecks(VirtualTerminalBridge.java:429)
+	at com.cinet.virtualterminal.bridge.VirtualTerminalBridge.initialize(VirtualTerminalBridge.java:99)
+	at com.cinet.virtualterminal.bridge.VirtualTerminalBridge.start(VirtualTerminalBridge.java:815)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Unknown Source)
+170606-124951 ERROR [JavaFX Application Thread] (VirtualTerminalBridge.java:745) - Configuration file was not found: config.xml
+170606-124951 INFO  [JavaFX Application Thread] (VirtualTerminalBridge.java:753) - Loading plain default configuration

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Activation version="1.0">
+     <Merchant Hash="AVW8bkV8jIMP9HU9BHjrp2YfaHhxBzbLbx7fwMZxiF8=" Name="CenPOS"/>
+          <Features>
+               <Feature Hash="8aFhi53vbeQHjJg6qOG8jizMQvVyzCJVZbrobWQEHtI=" Name="Equinox DUKPT P2PE" Valid="12312024"/>
+               <Feature Hash="MPeWDisZNlXvBuCC5JbVa7JfD9By+qlsGSVjjz/mCpw=" Name="TransArmor P2PE" Valid="12312024"/>
+          </Features>
+</Activation>

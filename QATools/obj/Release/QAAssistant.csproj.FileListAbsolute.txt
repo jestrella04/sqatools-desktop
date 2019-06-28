@@ -1,0 +1,15 @@
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Release\Resources\empty
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Release\CenPOSQAAssistant.exe.config
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Release\CenPOSQAAssistant.exe.manifest
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Release\CenPOSQAAssistant.application
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Release\CenPOSQAAssistant.exe
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\bin\Release\CenPOSQAAssistant.pdb
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\QATools.CenposQA.resources
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\CenPOSQAAssistant.Properties.Resources.resources
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\QAAssistant.csproj.GenerateResource.Cache
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\QAAssistant.csproj.CoreCompileInputs.cache
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\CenPOSQAAssistant.exe.manifest
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\CenPOSQAAssistant.application
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\CenPOSQAAssistant.exe
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\CenPOSQAAssistant.pdb
+C:\Users\jestrella\Documents\Visual Studio 2017\Projects\QATools\QATools\obj\Release\QAAssistant.csprojAssemblyReference.cache

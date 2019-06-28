@@ -1,0 +1,7 @@
+TermType=MX870
+BackgroundType=2
+BackgroundValue=background.png
+NumControls=3
+1EMAILREQ_LBL_110031648Would you like to receive Email updates?Bitstream Vera Sans Mono18TrueFalseFalseFalse1FalseTrueTrue167772150
+2EMAILREQ_BTN_12521367640Bitstream Vera Serif14TrueFalseFalseEMAILREQ_BTN_1_OnClick010YesTrueTrueTrueTrueTrue167772150
+3EMAILREQ_BTN_221921367640Bitstream Vera Serif14TrueFalseFalseEMAILREQ_BTN_1_OnClick020NoTrueTrueTrueTrueTrue167772150

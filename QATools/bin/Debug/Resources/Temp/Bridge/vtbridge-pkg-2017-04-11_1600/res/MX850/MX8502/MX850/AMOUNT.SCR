@@ -1,0 +1,8 @@
+TermType=MX850
+BackgroundType=1
+BackgroundValue=16777215
+NumControls=4
+1AMOUNT_LBL_110832024PLEASE CONFIRM AMOUNTBitstream Vera Sans Mono14TrueFalseFalseTrue1FalseFalseTrue126322560
+2AMOUNT_FK_120441369632Bitstream Vera Sans Mono10FalseFalseFalseAMOUNT_FK_1_OnClick010CANCELTrueFalseTrueTrueTrue2550TrueCANCEL0
+3AMOUNT_FK_2201601369632Bitstream Vera Sans Mono10FalseFalseFalseAMOUNT_FK_2_OnClick020ENTERTrueFalseTrueTrueTrue652800TrueENTER0
+4AMOUNT_HKP_1210000AMOUNT_HKP_1_OnKeyPress00200000000000000101

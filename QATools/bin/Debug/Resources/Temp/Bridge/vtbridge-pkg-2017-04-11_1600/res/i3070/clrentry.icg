@@ -1,0 +1,13 @@
+Ingenico Form Generator - Version 4.9.0.3
+Target Device=Ingenico 3070
+Target App=Undecided
+FormPath->[delimiter:\]
+FormFGColor->[formfgcolor:1]
+FormBGColor->[formbgcolor:0]
+FormAttr->[transparent:0]
+FormNumber->[formnumber:1]
+InputMethod->[keymask:FE13][mode:1]
+Reference Path Convention->OPOS
+FormPalette->[filename:][transition:0][color:000000]
+ScrollingReceipt->[x:0][y:0][cx:127][cy:63][transparent:0][fgcolor:1][bgcolor:0][bordercolor:1][show:0][font:8]
+ClearTextEntry->[x:67][y:32][promptx:68][prompty:33][editx:17][edity:4][editxr:5][edityr:0][promptfgcolor:1][promptbgcolor:0][editfgcolor:0][editbgcolor:1][minkey:1][maxkey:1][cursortype:1][promptfont:0][editfont:8][direction:0][firstkeytimeout:1000][interkeytimeout:1000][promptmac:00000000][beep:1][formattype:0][format:][formatmac:00000000][noenterless:1][echochar:][id:1][len:10][prompt:Select TIP]

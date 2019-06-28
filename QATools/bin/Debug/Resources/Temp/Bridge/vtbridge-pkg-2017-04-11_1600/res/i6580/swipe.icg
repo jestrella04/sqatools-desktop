@@ -1,0 +1,12 @@
+Ingenico Form Generator - Version 4.9.0.3
+Target Device=Ingenico 6580
+Target App=UPOS Legacy
+FormPath->[delimiter:\]
+FormFGColor->[formfgcolor:255]
+FormBGColor->[formbgcolor:255]
+FormAttr->[transparent:0]
+FormNumber->[formnumber:1]
+InputMethod->[keymask:FFFF]
+Reference Path Convention->JavaPOS
+FormPalette->[filename:][transition:0][color:000000]
+Bitmap->[file:.\res\i6580\images\swipe.gif][x:0][y:0][cx:320][cy:220]
