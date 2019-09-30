@@ -1,2 +1,0 @@
-<Form x='0' y='0' width='128' height='64' template='TEMPLLD.HTM' backgroundcolor='FFFFFF' timeout='0' enterenabled='true' clearenabled='true' cancelenabled='true' f1enabled='true' f2enabled='true' f3enabled='true' f4enabled='true' F1-link='' F2-link='' F3-link='' F4-link='' />
-<Label id='lbl3' textsource='custom' text='Thank you!' x='0' y='25' width='128' height='30' border='false' bordercolor='000000' textcolor='000000' fontsize='10px' fontweight='bold' fontfamily='sans-serif' align='center' background='false' backgroundcolor='FFFFFF' />

@@ -1,10 +1,0 @@
-TermType=MX850
-BackgroundType=1
-BackgroundValue=16777215
-NumControls=6
-1FA_SIGN_LBL_11019231640X ______________________________________ Bitstream Vera Sans14FalseFalseFalseFalse1FalseTrueTrue00
-3FA_SIGN_BOX_154136312960True16777215
-4FA_SIGN_BTN_1230609040Bitstream Vera Sans18FalseFalseFalseFA_SIGN_BTN_1_OnClick02512CANCELTrueTrueTrueTrueTrue20016777215
-5FA_SIGN_BTN_22200609040Bitstream Vera Sans18FalseFalseFalseFA_SIGN_BTN_2_OnClick010ENTERTrueTrueTrueTrueTrue6528016777215
-6FA_SIGN_TXT_11045231272Bitstream Vera Sans Mono12FalseFalseFalse5465TrueFalseTrue1FalseFalse167772150
-10850_FA_SIGN_LBL_210832024PLEASE SIGN BELOWBitstream Vera Sans Mono14TrueFalseFalseTrue1FalseFalseTrue126322560

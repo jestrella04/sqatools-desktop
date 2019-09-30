@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAAssistant", "QATools\QAAssistant.csproj", "{B72480D7-107E-48AE-BDDD-1A147FA9EB49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAAssistant", "QAAssistant\QAAssistant.csproj", "{B72480D7-107E-48AE-BDDD-1A147FA9EB49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
